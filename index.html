@@ -3,55 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma_01</title>
+    <title>Figma_000000000001</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600;700&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header class="header">
-        <div class="header__logo">
-            <a href="#">
-                <img class="header__logo-img" src="images/logo.svg" alt="">
-            </a>
-        </div>
-        <div class="line"></div>
-        <div class="container">
-                <div class="header__body">
-                    <div class="header__burger">
+    
+<div class="wrapper">
+    <section>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__menu menu">
+                    <div class="menu__icon">
                         <span></span>
-                        <span class="header__burger-line"></span>
                     </div>
-                    <nav class="header__menu">
-                        <ul class="header__list">
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">Наши работы</a>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li>
+                                <a data-goto=".page__section_1" href="#" class="menu__link">Наши работы</a>
                             </li>
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">Цены</a>
+                            <li>
+                                <a data-goto=".page__section_2" href="#" class="menu__link">О нас</a>
                             </li>
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">О нас</a>
+                            <li>
+                                <a data-goto=".page__section_3" href="#" class="menu__link">Коллекция</a>
                             </li>
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">Вопросы</a>
+                            <li>
+                                <a href="#" class="menu__link">Вопросы</a>
                             </li>
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">Отзывы</a>
+                            <li>
+                                <a href="#" class="menu__link">Отзывы</a>
                             </li>
-                            <li class="header__list-item">
-                                <a class="header__link" href="#">Контакты</a>
+                            <li>
+                                <a href="#" class="menu__link">Консультация</a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu__link">Социальные сети</a>
                             </li>
                         </ul>
                     </nav>
-                    <div class="header__works">
-                            <div class="header__number">+7 (800) 334 34 88</div>
-                            <div class="header__date">пн-вс 10:00 - 18:00</div>
-                        </div>
                 </div>
-        </div>
-       
+            </div>
+        </header>
         <div class="header__background">
             <div class="container">
                 <div class="header__content">
@@ -71,39 +66,39 @@
             </div>
             </div>
         </div>
-    </header>
+    </div>
+    </section>
 
-    <section class="innovation">
+    <section class="innovation page__section_1">
         <div class="container">
           <div class="innovation__title title">Новинки этой осени</div>
           <div class="innovation__row">
               <div class="innovation__column">
-                  <div class="innovation__inner">
-                      <div class="innovation__link btn">Оформить заказ</div>
-                      <div class="innovation__text">В этой работе царит животная печать и яркая окраска</div>
-                  </div>
                   <div><img  class="innovation__img" src="images/innovation-1.jpg" alt=""></div>
+                  <div class="innovation__inner">
+                    <div class="innovation__link btn">Оформить заказ</div>
+                    <div class="innovation__text">В этой работе царит животная печать и яркая окраска</div>
+                </div>
               </div>
                <div class="innovation__column">
-                <div class="innovation__inner">
+                   <div><img class="innovation__img" src="images/innovation-2.jpg" alt=""></div>
+                   <div class="innovation__inner">
                     <div class="innovation__link btn">Оформить заказ</div>
                     <div class="innovation__text">Мы можем похвастаться современной и острой коллекцией </div>
                 </div>
-                   <div><img class="innovation__img" src="images/innovation-2.jpg" alt=""></div>
               </div>
               <div class="innovation__column">
-                  <div class="innovation__inner">
-                      <div class="innovation__link btn">Оформить заказ</div>
-                      <div class="innovation__text">В этой работе представления тёмная флора завлекающая взгляд</div>
-                  </div>
                   <div><img class="innovation__img" src="images/innovation-3.jpg" alt=""></div>
+                  <div class="innovation__inner">
+                    <div class="innovation__link btn">Оформить заказ</div>
+                    <div class="innovation__text">В этой работе представления тёмная флора завлекающая взгляд</div>
+                </div>
               </div> 
           </div>
         </div>
     </section>
-    
 
-    <section class="advantages">
+    <section class="advantages page__section_2">
         <div class="container">
             <div class="advantages__title title">Личный стиль - это новый способ делать покупки, и мы делаем его простым.
             </div>
@@ -128,60 +123,7 @@
         </div>
     </section>
     
-<section class="dresses">
-    <div class="container">
-        <div class="dresses__discounts">
-            <div class="dresses__discounts-text">
-                Скидки 15%
-            </div>
-            <div class="dresses__discounts-subtext">
-                до 27 октября
-            </div>
-        </div>
-        <div class="dresses__title title">В честь 7 лет успешной работы</div>
-        <div class="dresses__subtitle">Коллекция оставшийся одежды</div>
-        <div class="dresses__row">
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-1.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-2.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-3.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-4.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-5.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-            <div class="dresses__column">
-                <div class="dresses__column-img"><img src="images/dresses-6.jpg" alt=""></div>
-                <div class="dresses__column-price">7 300 ₽</div>
-                <div class="dresses__column-descr">Сетчатое платье-миди с ремешком</div>
-                <div class="dresses__column-size">Размер: 84 88 92 96</div>
-            </div>
-        </div>
-    </div>
-</section>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
